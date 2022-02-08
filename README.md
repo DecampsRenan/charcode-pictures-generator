@@ -1,12 +1,14 @@
 ## Charcode pictures generator
 
+This script will generate a picture of a unicode character in the `out` folder at the root of the repo.
+
+⚠️ By default it will try to generate all unicode characters, it can take some space on your computer. If you only want a part of the unicode range, update the constants `UNICODE_START_RANGE` and `UNICODE_END_RANGE` (you can use https://jrgraphix.net/research/unicode_blocks.php to check available ranges).
+
 ```bash
 yarn install
 
 yarn start
 ```
-
-## Tweak the script
 
 ## Known issues
 
