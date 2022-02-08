@@ -1,8 +1,11 @@
 {
-  "name": "letter-generator",
+  "name": "charcode-picture-generator",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "jimp": "0.16.1",
     "ora": "5.4.1"
